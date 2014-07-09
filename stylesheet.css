@@ -1,0 +1,128 @@
+html, body {
+    height:100%
+}
+
+body {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding :0px;
+}
+
+h1 {
+    padding:0px;
+    margin:0px;
+}
+
+a:link {
+    text-decoration:none;
+    color:#BE8F31;
+}
+
+a:visited {
+   color:#BE8F31;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+label, input, select {
+    display:inline-block;
+    margin-bottom:10px;
+    height:20px;
+}
+
+label {
+    font-size:.95em;
+    margin-right:5px;
+    width:200px;
+    text-align:right;
+}
+
+select {
+    border: 1px solid black;
+    width:130px;
+    margin-right:70px;
+}
+
+select:hover, input[type="button"]:hover {
+    border: 1px solid #BE8F31;
+}
+
+select#selectClick {
+    width:50px;
+    margin-right:150px;
+}
+
+input[type="button"] {
+    border: 1px solid black;
+    background-color: #D9AE57;
+}
+
+audio {
+    padding-top:10px;
+}
+
+#gradient {
+    background-attachment: fixed;
+    background-color:#435B91;
+    background: linear-gradient(#435B91, black);
+    background: -webkit-linear-gradient(#435B91, black);
+    background: -o-linear-gradient(#435B91, black);
+    background: -moz-linear-gradient(#435B91, black);
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:-1
+}
+
+#container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    min-height:100%;
+    border-left:2px solid #435B91;
+    border-right:2px solid #435B91;
+}
+
+#heading {
+    text-align:center;
+    background-color: #FFE7B6;
+    border-bottom: 3px solid #D9AE57;
+    margin:0px;
+    padding:10px;
+}
+
+#directions {
+    padding-left:21px;
+    padding-right:21px;
+}
+
+#playbackSelections {
+    padding:10px;
+    border: 1px solid #D9AE57;
+    background-color: #FFE7B6;
+    margin:10px;
+    text-align:center;
+}
+
+#display {
+    display:none;
+    border: 1px solid #D9AE57;
+    background-color: #FFE7B6;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+}
+
+#display p {
+    padding:0px;
+    padding:10px;
+    margin:0px;
+}
+
+#spacer {
+    height:10px;
+}
